@@ -1,0 +1,6 @@
+#sort play.txt (space-delimited) on column 3
+sort -t " " -k 3n,3 play.txt
+
+#sort play.txt (space-delimited) on column 2
+sort -t " " -k 2n,2 play.txt
+

@@ -1,0 +1,10 @@
+NOTE: There are about 160 words that have .a.es pattern.
+
+The words we do worst on in wordle3.py are those that have this pattern in spite of the fact
+that we are rewarded with 3 or the correct words in the correct spot. So, we need to precalculate
+the best second guess if our grade is .2.22 (the worst words are those with the two unknown letters
+being absent from the grade).
+
+first word: lares
+if > 60 words remaining then
+  second word: tones

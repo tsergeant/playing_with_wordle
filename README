@@ -1,0 +1,24 @@
+Explanation of files in this directory:
+
+dictionary.txt - the original dictionary file (almost 13000 words)
+
+pass1.txt - fitness results (avg # of words left if the word is used as a first
+		guess) averaged over 50 randomly selected words sortcommands.txt
+
+pass2.txt - fitness results for the top 2500 words from pass1 were averaged over
+		250 selected words
+
+trials.txt - some misc. fitness results gathered to determine number of words to
+		test in first pass (50)
+
+wordle1.py - computer plays wordle using random word selection
+wordle1stats.py - computer plays wordle using random word selection and records number
+		of guesses needed to solve each word along with longest, shortest, average, etc.
+
+wordle2.py - computer plays wordle using enhanced technique
+wordle2stats.py - computer plays wordle using enhanced technique
+
+wstats.py - code to produce fitness data for words
+
+pass?.sorted.txt - results of that pass sorted by fitness
+pass?.topXXX.txt - top XXX results from the given pass
