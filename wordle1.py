@@ -18,7 +18,7 @@ def is_possible(word, result):
     and the partial word provided by the user.
 
     :param word: The word we are considering as a possible match.
-    :param result: A dictionary that stores the guess and the grade.
+    :param result: A dictionary/object that stores the guess and the grade.
     :returns: True if the word is a possible match; False otherwise.
     """
     guesslist = list(result['guess'])
